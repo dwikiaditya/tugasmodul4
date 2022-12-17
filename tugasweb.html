@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: arial, helvetica, sans-serif;
+        }
+        header{
+            background-color: #46482e;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+        nav{
+            float: left;
+            width: 30%;
+            height:300px;
+            background: #b7baa6;
+            padding: 20px;
+        }
+        nav ul{
+            list-style-type: none;
+            padding: 0;
+        }
+        article{
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: #a4aa88;
+            height: 300px;
+        }
+        section::after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+        footer{
+            background-color: #2b411c;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        @media (max-width:600px){
+            nav,article{
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Pesawat Jet Tercanggih</h2>
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#fitur">Fitur</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+        </nav>
+        <article id="f35">
+            <h1>1. F-35 Lightning II</h1>
+            <p>Lockheed Martin F-35 Lightning II adalah keluarga pesawat tempur multiperan siluman berkursi tunggal, bermesin tunggal, segala cuaca buatan Amerika Serikat yang dimaksudkan untuk melakukan misi superioritas udara dan serangan. F-35 juga mampu memberikan kemampuan peperangan elektronik dan intelijen, pengawasan, dan pengintaian.</p><br>
+            <p>Pesawat ini diturunkan dari Lockheed Martin X-35, yang pada tahun 2001 mengalahkan Boeing X-32 untuk memenangkan program Joint Strike Fighter (JSF). Pembangunannya pada prinsipnya didanai oleh Amerika Serikat, dengan dana tambahan dari negara-negara mitra program dari NATO dan sekutu dekat AS, termasuk Inggris, Australia, Kanada, Italia, Norwegia, Denmark, Belanda, dan Turki.</p>
+        </article>
+    </section>
+    <footer>
+        <p>&copy; Copyright by Dwiki  | 21104410057</p>
+    </footer>
+</body>
+</html>
